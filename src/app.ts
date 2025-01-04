@@ -5,7 +5,7 @@ import { baseUrl } from "./constants.js";
 const app = express();
 
 app.use(express.json());
-app.use(cors({ origin: "http://localhost:5173" }));
+app.use(cors({ origin: "https://task-plan-hub.netlify.app" }));
 
 /* =======================================
 -------------------ROUTES-----------------
